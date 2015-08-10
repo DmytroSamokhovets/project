@@ -1,0 +1,132 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: url(bg_easystart1600_670.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.form-container{
+  position:relative;
+  background-color:#000828;
+  padding:0.3%;
+  margin-left:300px;
+  width:560px;
+}
+
+
+.form h2{
+  margin:0;
+  clear:both;
+  font-weight:normal;
+  color:#EABA29;
+  padding-left:24px;
+  padding-top:15px;
+}
+
+.form hr{
+  border-bottom-width:2px !important;
+}
+
+.form .form-text{
+  display:block;
+  position:relative;
+  margin-right:10px;
+  margin-left:10px;
+  color:#675636;
+  float:left;
+}
+
+.form .select-field-wrapper .form-text{
+  top:14px;
+}
+
+.form .select-field{
+  float:left;
+}
+
+.form .text-field-wrapper .form-text{
+  margin-top:14px;
+}
+
+.form .text-field{
+  float:left;
+}
+
+.form .button-wrapper{
+  margin-top:60px;
+  border-top:solid 1px #E3E3E3;
+}
+
+.form .purpose-bg:before, .form .objective-bg:before, .form .name-bg:before, .form .age-bg:before, .form .housing-bg:before, .form .city-bg:before, .form .state-bg:before, .form .members-bg:before, .form .lifestyle-bg:before, .form .savings-bg:before, .form .income-bg:before{
+  content:"";
+  position:absolute;
+  left:71px;
+  width:395px;
+  height:24px;
+  background-color:white;
+}
+
+.form .objective-bg:before{
+  left:67px;
+}
+
+.form .name-bg:before{
+  left:41px;
+  width:171px;
+}
+
+.form .age-bg:before{
+  width:35px;
+}
+
+.form .housing-bg:before{
+  left:15px;
+  width:171px;
+}
+
+.form .city-bg:before{
+  width:132px;
+  left:23px;
+}
+
+.form .state-bg:before{
+  width:40px;
+  left:13px;
+}
+
+.form .members-bg:before{
+  left:92px;
+}
+
+.form .lifestyle-bg:before, .form .savings-bg:before{
+  width:137px;
+  left:106px;
+}
+
+.form .savings-bg:before{
+  left:110px;
+}
+
+.form .income-bg:before{
+  width:228px;
+  left:273px;
+}
+
+.form .age input, .form .state input{
+  text-align:center;
+}
+
+.state input{
+  text-transform:uppercase;
+}
+
+.form .age > div:first-of-type{
+  margin-left:8px;
+}
+
+.form .state > div:first-of-type{
+  margin-left:11px;
+}
